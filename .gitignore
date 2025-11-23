@@ -1,0 +1,46 @@
+#Sprint Development Plan
+_sprint_3_plan.md
+
+# Dependencies
+node_modules/
+package-lock.json  # Or yarn.lock if using yarn
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs - Can get huge
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database files
+*.db
+*.sqlite
+
+# OS generated files
+.DS_Store       # Mac
+Thumbs.db       # Windows
+*.swp           # Vim
+*~              # Backup files
+
+# IDE files
+.vscode/        # VS Code settings (optional - some keep this)
+.idea/          # IntelliJ/WebStorm
+*.sublime-*     # Sublime Text
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
